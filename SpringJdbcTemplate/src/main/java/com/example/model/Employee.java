@@ -47,5 +47,11 @@ public class Employee {
 		this.salary = salary;
 	}
 
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "name= "+name+
+				" emp id= "+id+" Age= "+age+" salary= "+salary;
+	}
 	
 }
